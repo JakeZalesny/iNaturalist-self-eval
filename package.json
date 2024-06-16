@@ -1,0 +1,19 @@
+{
+  "name": "inaturalist-self-eval",
+  "version": "1.0.0",
+  "description": "Self Evaluation for WDD-330",
+  "main": "index.js",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build --emptyOutDir",
+    "preview": "vite preview",
+    "lint": "eslint *.js src/**/*.js",
+    "format": "prettier --ignore-path ./.gitignore --write \"./**/*.{html,json,js,ts,css}\"",
+    "test": "jest"
+  },
+  "author": "Jake Zalesny",
+  "license": "ISC",
+  "dependencies": {
+    "vite": "^5.3.0"
+  }
+}
